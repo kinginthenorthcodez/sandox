@@ -2,7 +2,7 @@
 # Awesome books: Using classes
 
 > We built a book library using JavaScript classes and used localStorage to save the data.
-> Refactored code for ES6
+- Refactored code for ES6
 
 
 ## Built With
@@ -11,9 +11,19 @@
 - GitHub
 - Modules
 
+## Supported Functionality
+- Check/Update status
+- Add/Remove to favourite
+- Add/Remove book
+
+## UnSupported Functionality
+- Filter book
+- Edit/Update book
+- Book summary
+
 ## Live Demo
 
-(Not available))
+[live page](https://kinginthenorthcodez.github.io/sandox/)
 
 ## Getting Started
 
@@ -23,7 +33,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Step 1:
 
-Go to the repo (https://github.com/jevazquezb/Awesome_books) and click on the <>Code tab.
+Go to the repo (https://github.com/kinginthenorthcodez/sandox) and click on the <>Code tab.
 
 ### Step 2:
 
@@ -67,7 +77,7 @@ Ready to work?⛏️ You're all set to explore and change the repo locally (on y
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jevazquezb/Awesome_books/issues).
+Feel free to check the [issues page](https://github.com/kinginthenorthcodez/sandox/issues).
 
 ## Show your support
 
@@ -77,6 +87,7 @@ Give a ⭐️ if you like this project!
 
 - Stackoverflow!!!
 - Inspiration.
+- Collaborators
 - etc.
 
 ## 📝 License
