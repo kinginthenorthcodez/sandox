@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="book.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="nav-cont">
+    <h4 class="logo">Awesome Books</h4>
+    <ul class="menu">
+      <li class="menu-item"><a href="#" id="list" class="link-item">List</a></li>
+      <li class="menu-item"><a href="#" id="add-new" class="link-item">Add New</a></li>
+      <li class="menu-item"><a href="#" id="contact" class="link-item">Contact</a></li>
+    </ul>
+  </header>
+  <div class="date-item">2022-04-20</div>
+  <h1 class="title">Awesome Books</h1>
+  <div class="sections">
+    <p class="welcome-msg">Add a new book to our library</p>
+  <section id="bookShelf">
+
+  </section>
+
+  <section id="inputsContainer">
+  <p><input type="text" name="title" id="bookTitle" placeholder="Title"></p>
+  <p><input type="text" name="author" id="bookAuthor" placeholder="Author"></p>
+  <p><textarea name="bookDescription" id="bookInfo" cols="30" rows="10" placeholder="Description"></textarea></p>
+  <button type="button" id="addBtn">Add Book</button>
+ </section>
+
+
+ <section class="contact">
+  <h1 class="title title-marg">Contact Information</h1>
+  <div class="contact-cont">
+    <P>Do you have any questions or you just want to say "Hello"?</P>
+    <p>You can reach out to us:</p>
+    <ul class="contact-list">
+      <li>Our email: mail@mail.com</li>
+      <li>Our Phone Number : 0043586534422</li>
+      <li>Our Address: StreetName: 22,84503 City,Country</li>
+    </ul>
+  </div>   
+</section>
+
+<section id="editContainer" class="modal hide-modal">
+  <p class="closebtn">Close</p>
+ <div class="modal-edit">
+ <p><input type="text" name="title" id="editTitle" ></p>
+ <p><input type="text" name="author" id="editAuthor" ></p>
+ <p><textarea name="bookDescription" id="editInfo" cols="30" rows="10"></textarea></p>
+ <button type="button" id="editBtn">Update Book</button>
+ </div>
+</section>
+  </div>
+<footer class="footer">
+  <div class="footy">
+Copyright...
+</div>
+</footer>
+
+
+  <script src="addBook.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/luxon@2.3.2/build/global/luxon.min.js"></script> 
+  <script>
+    const time = document.querySelector('.date-item');
+    time.innerHTML = new Date().toLocaleString();
+
+//     const setTime = () => {
+//       const timeDate = document.querySelector('.date-item');
+//   const timer = luxon.DateTime.local();
+//   timeDate.innerHTML = `${timer.toLocaleString(luxon.DateTime.DATETIME_FULL)}, ${timer.toLocaleString(luxon.DateTime.TIME_WITH_SECONDS)}`;
+//   setTimeout(setTime, 1000);
+// };
+// setTime();
+  </script>
+</body>
+</html>

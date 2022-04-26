@@ -1,0 +1,331 @@
+
+body {
+  width: 85%;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  justify-self: center;
+  margin-bottom: 20px;
+  background: #f0f7f6;
+}
+
+.nav-cont .logo {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  color: orangered;
+}
+
+.nav-cont .menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.date-item {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  max-width: 500px;
+  position: relative;
+  top: 80px;
+  left: 62%;
+  font-size: 1.3rem;
+  align-self: flex-end;
+  margin-right: 1rem;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  color: orangered;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  max-width: 800px;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.welcome-msg {
+  display: flex;
+  align-self: center;
+  font-size: 4rem;
+  width: 100%;
+  width: 800px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.nav-cont .menu .menu-item {
+  padding: 5px;
+  background: #d6e4e3;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 2s;
+}
+
+
+.nav-cont .menu .menu-item:hover {
+  background: #ebf1f1;
+}
+
+.menu .link-item {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  color: orangered;
+  text-decoration: none;
+}
+
+.title {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 25px;
+  width: 40%;
+  text-align: center;
+  background: orangered;
+  padding: 10px;
+  margin: 100px auto;
+  box-shadow: 10px 10px 8px #1a1717;
+}
+
+#bookShelf {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 5px;
+  max-width: 800px;
+}
+
+#tempBox{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+  border: 2px solid #20b2aa;
+  padding: 10px;
+}
+
+#bookShelf .book-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+}
+
+#bookShelf .inner-bookCont {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  max-width: 800px;
+  align-items: center;
+  gap: 10px;
+  padding: 2px;
+}
+#bookShelf .inner-bookCont:nth-child(odd) {
+ background: #778899;
+}
+
+.inner-bookCont .book-data{
+  width: 40%;
+  color: orangered;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.book-container .book-info {
+  width: 100%;
+  color: rgb(26, 20, 18);
+  padding: 2px;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.book-status,
+.book-favorite,
+.book-remark,
+.book-update,
+.book-remove {
+  width: 80px;
+  height: 50px;
+  border-style: none;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 16px;
+  background: #20b2aa;
+  border-radius: 5px;
+  color: #fff;
+
+}
+
+.book-status:hover,
+.book-favorite:hover,
+.book-remark:hover,
+.book-update:hover,
+.book-remove:hover {
+  background: #6bd4cf;
+  transition: all 2s;
+} 
+
+#inputsContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+#inputsContainer input,
+#inputsContainer textarea {
+  width: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 25px;
+  border: 2px solid #b0e0e6;
+  box-shadow: 10px 10px 8px #1a1717;
+}
+
+#inputsContainer textarea {
+height: 200px;
+}
+
+#inputsContainer input:focus,
+#inputsContainer textarea:focus {
+  border: 2px solid seagreen;
+  outline-style: none;
+}
+
+#inputsContainer button {
+  display: flex;
+  width:100px;
+  height: 30px;
+  padding: 8px;
+  align-self: center;
+  border-style: none;
+  background: #4169e1;
+  justify-content: center;
+  box-shadow: 10px 5px 8px #1a1717;
+  align-content: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  max-width: 800px;
+  padding-top: 25px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.contact-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  margin-top: 10px;
+  align-items: center;
+}
+.contact-cont p, .contact-list {
+  width: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  left: 20%;
+  max-width: 800px;
+  height: 80px;
+  background: #f0f7f6;
+  margin: 0 auto;
+  bottom: 0;
+}
+.footy {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+  background: #696969;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.modal .closebtn {
+  font-size: 24px;
+  background: #4169e1;
+  text-align: center;
+  width: 70px;
+  font-weight: 600;
+}
+
+.modal .modal-edit {
+display: flex;
+flex-direction: column;
+width: 100%;
+max-width: 500px;
+z-index: 20;
+padding: 20px;
+box-shadow: 10px 10px 8px #1a1717;
+margin-bottom: 20px;
+}
+
+.modal .modal-edit input ,
+.modal .modal-edit textarea {
+  width: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 25px;
+  border: 2px solid #b0e0e6;
+  box-shadow: 10px 10px 8px #1a1717;
+}
+
+.modal .modal-edit input:focus {
+  border: 2px solid seagreen;
+  outline-style: none;
+}
+.modal-edit button {
+  display: flex;
+  width:100px;
+  height: 30px;
+  padding: 8px;
+  align-self: center;
+  border-style: none;
+  background: #4169e1;
+  justify-content: center;
+  align-content: center;
+}
+
+.hide-modal {
+  display: none;
+}
