@@ -4,6 +4,7 @@
 > We built a book library using JavaScript classes and used localStorage to save the data.
 - Refactored code for ES6
 
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
